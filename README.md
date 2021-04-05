@@ -15,7 +15,7 @@
 - Create Point Class to store x,y or z
 - Create n number of Point instances with random x,y or z values within required ranges
 - Store Points in a HashSet for to create unique points only 
-> **NOTE: Number of points and range should be considered if increasing values. Max combination of points is 2^n, where n=number of points.  It may take some time for Random class to generate unique pairs.  If unique is not a concern. Switch out HashSet for another data stucture to store poins**
+> **NOTE: Number of points and range should be considered if increasing values. Max combination of points is 2^n, where n=number of points.  It may take some time for Random class to generate unique pairs.  If unique is not a concern, switch out HashSet for another data stucture to store poins, but having duplicates there is a high probability it will always result to closest point being zero**
 - Iterate through each point and calculate the distance with each other point using Euclidean distance formual.
 
 ### Solution Divide & Conquer Approach
