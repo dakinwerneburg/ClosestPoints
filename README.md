@@ -2,6 +2,8 @@
 
 ## Microsoft Software & Systems Academy Exercise 11
 
+![Closest Point Demo](ClosestPointDemo.gif)
+
 ### Requirements:
 - Write a console application 
 - Create a data structure to hold 100 random integers to represent (x,y) cartesian coordinates ranging from 1-100
